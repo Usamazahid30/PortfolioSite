@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "./../constants/index";
-import ProfilePic from "../assets/KevinRushProfile.jpg";
+import ProfilePic from "../assets/KevinRushProfile.png";
 import { motion } from "framer-motion";
 import { saveAs } from "file-saver";
 
