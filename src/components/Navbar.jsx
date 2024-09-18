@@ -15,10 +15,28 @@ const Navbar = () => {
         />
       </div>
       <div className="m-8 flex items-center  justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a
+          href="https://www.linkedin.com/in/muhammadusama22"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/usamazahid30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
         <FaSquareXTwitter />
-        <FaInstagram />
+        <a
+          href="https://www.instagram.com/musama_2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
