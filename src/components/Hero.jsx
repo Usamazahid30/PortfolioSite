@@ -13,7 +13,7 @@ const Hero = () => {
     },
   });
   const downloadRes = () => {
-    saveAs("../../public/Usama-Resume.pdf", "Usama-resume.pdf");
+    saveAs("/Usama-Resume.pdf", "Usama-resume.pdf");
   };
   return (
     <div className="border-b border-neutral-900 pb-4  lg:mb-35">
